@@ -86,6 +86,9 @@ const Intro = () => {
                 <Link className='usa-button' to={NEXT}>
                   {t(`pages.Landing.button.text`)}
                 </Link>
+                <Link className='usa-button usa-button--outline margin-left-1' to='/literacy-map'>
+                  Find literacy centers near me
+                </Link>
               </>
             )}
           </div>

@@ -10,3 +10,4 @@ export { default as Done } from './Done.js';
 export { default as PilotLimitedAccess } from './PilotLimitedAccess.js';
 export { default as Intro } from './Intro.js';
 export { default as About } from './About.js';
+export { default as LiteracyMap } from './LiteracyMap.js';

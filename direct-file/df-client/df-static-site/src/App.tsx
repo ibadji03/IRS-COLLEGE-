@@ -13,6 +13,7 @@ import {
   Done,
   Income,
   Intro,
+  LiteracyMap,
   PilotLimitedAccess,
   Retirement,
   State,
@@ -39,6 +40,7 @@ function App() {
           <Routes>
             <Route path='/' element={<LandingPageLayout page={Intro} />} />
             <Route path='/about' element={<ScreenerLayout page={About} />} />
+            <Route path='/literacy-map' element={<ScreenerLayout page={LiteracyMap} />} />
             <Route path='/limited' element={<ScreenerLayout page={PilotLimitedAccess} />} />
             {/* Screener pages */}
             <Route path='/state' element={<ScreenerLayout page={State} />} />
